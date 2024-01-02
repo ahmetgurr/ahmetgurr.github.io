@@ -1,0 +1,241 @@
+/*HEADER*/
+header{
+    background-image: url('../image/mainPage1.jpeg');
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+    z-index: -1;
+    opacity: 0.9;
+    margin-bottom: 70px;
+    width: 75%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+/* cv buttons design */
+.cv-icons{
+    margin: 68px;
+    display: flex;  
+    justify-content: center;
+}
+
+.cvButton{
+    background-color: #7FEECB;
+    color: #0E2A3B  ;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
+    position: absolute;
+}
+
+
+/* social design */
+/* icons */
+#header_icons {
+    width: 25%;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+/* icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin: 10%;
+
+}
+
+.social-icon {
+    font-size: 3rem;
+    color: var(--color4);
+    transition: color 0.5s, transform 0.5s;
+    margin: 20px;
+    color:aquamarine;
+}
+
+.social-icon:hover {
+    color: var(--color3);
+    transform: scale(1.1);
+}
+
+
+
+
+/* card design */
+
+.card{
+
+display: flex;
+flex-direction: row;
+gap: 1rem;
+height: 400px;
+}
+
+.cardProject {
+    position: relative;
+    height: 250px;
+
+
+}
+
+.cardProject .gotoButton {
+    position: absolute;
+    bottom: 1;
+    right: 25px;
+    bottom: 10px;
+    right: 30px;
+}
+
+
+.gotoButton{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
+    position: absolute;
+}
+
+.readButton{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+/* MAIN SECTION */
+/*SERVICES*/
+#services_id{
+    margin-bottom:4rem;
+    margin-top: 2rem;
+}
+
+#services_id .icon_service i {
+    font-size: 3rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+#services_id .icon_service h4{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/*PROJECT*/
+#project_id{
+    margin-bottom:4rem;
+    margin-top: 2rem;
+}
+
+#project_id .icon_service i {
+    font-size: 3rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+#project_id .icon_service h4{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#project_id h2{
+
+    margin-bottom:4rem;
+}
+
+/*BLOG*/
+#blog_id{
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+    padding:3rem .1rem;
+}
+
+#blog_id h2{
+
+    margin-bottom:4rem;
+}
+
+#blog_id .blog_service .container .row .card img{
+    max-width: 100%;
+    padding:0.2rem;
+    border-radius: 4%;
+    transition: transform ease-in-out 0.3s, opacity ease-in-out 0.3s;
+    width: 100%;
+    margin: auto;
+    margin:20px;   
+}
+
+
+#blog_id .blog_service .container .row .card img:hover{
+    transform: scale(1.1,1);
+    opacity: 0.8;
+}
+
+#blog_id .blog_service .card-body h4,p{
+   color:black;
+}
+
+/* ABOUT */
+#about_id{
+    background-image: url("../image/mainPage1.jpeg");
+    background-color: transparent;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    padding:2rem;
+    border-radius: px;
+}
+
+/* CONTACT */
+#contact_id{
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+    padding:3rem .1rem;
+}
+
+/*BACK TO TOP*/
+#backToTop{
+    position: fixed;
+    bottom: 0.7rem;
+    right: 0.5rem;
+    background-color: #0E2A3B;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    /* display: none; */
+}
